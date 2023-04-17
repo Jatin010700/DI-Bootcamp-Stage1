@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(62, 72, 218);
+    font-family: sans-serif;
+}
+#wrap{
+background-color: rgb(136, 136, 255);
+margin: 40px ;
+}
+#nav{
+    background-color: rgb(170, 202, 246);
+    float: left;
+    padding: 20px;
+    padding-bottom: 225px;
+}
+#content{
+    text-align: center;
+    padding: 5px;
+}
+.removeDot{
+    list-style-type: none;
+}
+footer p{
+    text-align: center;
+}

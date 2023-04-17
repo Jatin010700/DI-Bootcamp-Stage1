@@ -1,0 +1,24 @@
+#wrap{
+    background-color: aqua;
+    margin: 100px;
+    padding: 2px 8px;
+}
+p{
+    font-family: sans-serif;
+}
+li:first-letter{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.5px;
+    font-size: 1.5em;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    font-family: sans-serif;
+    text-align: center;
+}
+.copyright{
+    text-align: left;
+}

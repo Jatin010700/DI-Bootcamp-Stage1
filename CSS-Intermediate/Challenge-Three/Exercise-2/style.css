@@ -1,0 +1,32 @@
+body{
+    margin: 20px 20px;
+}
+.left-column, .middle-column, .right-column{
+    width: 400px;
+    height: 390px;
+    border: 3px solid black;
+    display: inline-block;
+}
+.top{
+    background-color: blueviolet;
+    height: 150px;
+    border: 3px solid black;
+}
+.left-column{
+    background-color: aqua;
+    position: relative;
+    bottom: -40px;
+    
+}
+.middle-column{
+    background-color: greenyellow;
+    position: absolute;
+    right: 490px;
+    top: 215px;
+}
+.right-column{
+    background-color: crimson;
+    position: absolute;
+    right: 20px;
+    top: 215px;
+}

@@ -1,0 +1,56 @@
+
+p.ex1 {
+    background-color: rgb(202, 202, 202);
+    width: 350px;
+    height: 105px;
+}
+p.ex5{
+    background-color: aqua;
+    width: 90px;
+    height: 90px;
+  position: absolute;
+    top: 122px;
+    left: 14px;
+}
+p.ex6{
+    background-color: yellow;
+    width: 90px;
+    height: 90px;
+    position:absolute;
+    top: 127px;
+    left: 18px;
+}
+p.ex2 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255); 
+}
+p.ex3 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px; 
+    background-color: rgb(255, 0, 0); 
+    float: left;
+}
+p.ex4 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: rgb(10, 38, 255); 
+}
+ol li{
+    color: blue;
+}
+ul{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+div p:last-child{
+    background-color: lightblue;
+    padding: 20px;
+    margin: 30px;
+}
